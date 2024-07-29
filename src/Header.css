@@ -1,0 +1,27 @@
+.headerNavItem a {
+    position: relative;
+    color: #1A7ADE;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.headerNavItem a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 50%;
+    background-color: #1A7ADE;
+    transition: width 0.3s ease, left 0.3s ease;
+}
+
+.headerNavItem a:hover {
+    color: #004d99; /* Darker, more subdued color */
+}
+
+.headerNavItem a:hover::before {
+    width: 100%;
+    left: 0;
+    background-color: #004d99; /* Darker underline color */
+}
