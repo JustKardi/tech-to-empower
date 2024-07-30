@@ -5,16 +5,21 @@ import './Header.css';
 function Header() {
     const styles = {
         header: {
-            backgroundImage: `url(${bg})`,
+            backgroundColor: '#E0E0E0',
             padding: '10px 20px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'space-between',
             boxShadow: '0px 4px 4px #a8a8a8',
-            height: '100px'
+            height: '100px',
+            width: '96%',
+            margin: '0 auto',
+            borderRadius: '10px',
+            position: 'relative',
+            top: '5px'
         },
         headerNavText: {
-            color: '#1A7ADE',
+            color: '#4682B4',
             fontFamily: '"Poppins", sans-serif',
             display: 'flex',
             listStyleType: 'none',
@@ -26,7 +31,7 @@ function Header() {
             cursor: 'pointer',
         },
         headerText: {
-            color: '#1A7ADE',
+            color: '#4682B4',
             fontFamily: '"Poppins", sans-serif',
             margin: 0,
             position: 'relative',

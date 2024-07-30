@@ -1,6 +1,6 @@
 .headerNavItem a {
     position: relative;
-    color: #1A7ADE;
+    color: #4682B4;
     text-decoration: none;
     transition: color 0.3s;
 }
@@ -12,7 +12,7 @@
     height: 2px;
     bottom: -5px;
     left: 50%;
-    background-color: #1A7ADE;
+    background-color: #4682B4;
     transition: width 0.3s ease, left 0.3s ease;
 }
 
